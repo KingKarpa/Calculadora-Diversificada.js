@@ -45,7 +45,7 @@ function resuldado(){
     res.appendChild(p);
     p.appendChild(document.createTextNode(produtos[i]));
     }
-    res.innerHTML += (`A sub-sequência de desvios simples é ${seqB}`);
+    // res.innerHTML += (`A sub-sequência de desvios simples é ${seqB}`);
 }
 function calcDP(){
 
